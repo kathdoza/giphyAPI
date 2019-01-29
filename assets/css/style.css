@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #f7e5fa;
+    font-family: 'Questrial', sans-serif;
+}
+.headerImage {
+    float: left;
+    width: 100px;
+  
+}
+.header {
+    overflow: auto;
+    background: #fcf7df;
+    margin-top: 30px;
+    font-family: 'Poiret One', cursive;
+    font-size: 75px;
+    padding: 20px;
+}
+
+p { 
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    padding: 20px;
+    margin: auto;
+    
+}
+
+.btn {
+    margin: 10px;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+img { 
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 300px;
+}
+
+.showGifs{
+    display: inline-block;
+    position: relative;
+}

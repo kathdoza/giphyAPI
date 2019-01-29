@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TV Shows Giphy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" 
+    type="image/png" 
+    href="assets/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Questrial" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="assets/javascript/app.js"></script>
+</head>
+<body>
+    <div class="container"> 
+        <div class ="jumbotron header">
+            <img src="assets/images/tv.gif" alt="television sticker" class="headerImage">
+            <p class="header"> TV SHOW GIFS</p>
+        </div>
+        <!-- where the tv show buttons go -->
+        <div id="buttonsView"></div>
+        <div class="row"> 
+            <div class="container"> 
+            <div class="col-lg-12">
+                <!-- form to add a new tv show to array -->
+                <form id="tvForm">
+                    <label for="tvInput">Add a TV Show!</label>
+                    <input type="text" id="tvInput">
+                    <input id="addShow" type="submit" value="Submit">
+                </form>
+            </div> 
+            <!-- where the gifs go once a button is pressed  -->
+            <div id="gifView"></div>
+           
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
